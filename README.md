@@ -13,3 +13,5 @@ On going to be huge 🎯🙌
 Reference Task :
 
 - https://repl.it/@Friandy/js-async-exercice
+
+Made by 💜 with Prides and Huge Effort for this challenge.
