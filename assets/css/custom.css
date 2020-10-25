@@ -59,3 +59,14 @@ a {
   background-color: #ff9e00 !important;
   border-color: #ff9e00 !important;
 }
+
+.thead-primary-1 {
+  color: #ffb600;
+  background-color: #ff7900;
+  border-color: #ff7900;
+}
+
+.thead-primary-1:hover {
+  background-color: #ff5400;
+  border-color: #ff5400;
+}

@@ -57,7 +57,7 @@
               href="https://instagram/xxxx"
               target="_blank"
               class="text-primary-1 font-weight-bolder text-decoration-none"
-              >@xxxx</a
+              >@FairuzIM</a
             >
             👋
           </p>
@@ -68,28 +68,28 @@
           <button
             type="button"
             class="btn btn-primary-3 font-weight-bolder shadow p-3 mb-5 mr-3 rounded"
-            onclick="alert('STATUS ❌')"
+            onclick="modulePromiseAll()"
           >
-            Case Promise All 🌎
+            Module Promise All 🌎
           </button>
           <button
             type="button"
             class="btn btn-primary-2 font-weight-bolder shadow p-3 mb-5 mr-3 rounded"
-            onclick="alert('STATUS ❌')"
+            onclick="promiseAll()"
           >
             Promise All 🎯
           </button>
           <button
             type="button"
             class="btn btn-primary-1 font-weight-bolder shadow-lg p-3 mb-5 rounded"
-            onclick="alert('STATUS ❌')"
+            onclick="promiseChaining()"
           >
             Promise Chaining 💥
           </button>
           <button
             type="button"
             class="btn btn-secondary-1 font-weight-bolder shadow-lg p-3 mb-5 ml-3 rounded"
-            onclick="alert('STATUS ❌')"
+            onclick="asyncAwait()"
           >
             Async-Await 🎇
           </button>
@@ -100,7 +100,24 @@
 
     <div class="container mt-3">
       <div class="row justify-content-center">
-        <h1 class="font-weight-bolder">HERE RESULT VIEW</h1>
+        <div class="table-responsive">
+          <table class="table">
+            <thead class="thead-primary-1">
+              <tr>
+                <th scope="col">Now Activity</th>
+                <th scope="col">Output</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="nowActivity" scope="row">Un-Clicked 🍳</td>
+                <th id="hasil">Click Some Button Above</th>
+                <td id="status">Un-Active 🎏</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
 
@@ -122,8 +139,8 @@
               onmouseout="this.start();"
               scrollamount="10"
             >
-              Promise.All ❌ || Promise Chaining ❌ || Async-Awail ❌ ||
-              Progress <strong><i>30%</i></strong>
+              Module Promise.all ✅ || Promise.all ✅ || Promise Chaining ✅ ||
+              Async-Await ✅ || Progress <strong><i>90%</i></strong>
             </marquee>
           </div>
         </div>
@@ -139,7 +156,10 @@
     <!-- !End Footer -->
 
     <!-- !Main Javascript -->
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/modulePromiseAll.js"></script>
+    <script src="./assets/js/promiseAll.js"></script>
+    <script src="./assets/js/promiseChaining.js"></script>
+    <script src="./assets/js/asyncAwait.js"></script>
     <!-- ?Main Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
