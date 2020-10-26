@@ -1,5 +1,7 @@
 const promiseChaining = () => {
   document.querySelector('#nowActivity').innerText = 'Now Clicked 🎈';
+  document.querySelector('#hasil').innerText = 'Waiting a seconds... ⌛';
+
   getUser(11)
     .then((res) => {
       document.querySelector(

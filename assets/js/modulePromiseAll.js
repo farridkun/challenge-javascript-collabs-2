@@ -18,6 +18,7 @@ const getLastName = (first) => {
 
 const modulePromiseAll = () => {
   document.querySelector('#nowActivity').innerText = 'Now Clicked 🎈';
+  document.querySelector('#hasil').innerText = 'Waiting a seconds... ⌛';
   getFirstName()
     .then((hasil) => getLastName(hasil))
     .then((hasil2) => {

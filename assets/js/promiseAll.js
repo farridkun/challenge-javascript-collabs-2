@@ -28,6 +28,7 @@ const getUser = (id) => {
 
 const promiseAll = () => {
   document.querySelector('#nowActivity').innerText = 'Now Clicked 🎈';
+  document.querySelector('#hasil').innerText = 'Waiting a seconds... ⌛';
 
   Promise.all([
     getUser(3), // 1
